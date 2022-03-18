@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * main - entry block
- * @void: no argument
- * Return: 0
- **/
-int main(void)
+ * print_alphabet - order from a to z
+ *
+ *Return: x
+ */
+void print_alphabet(void)
 {
-	char ermias[] = "_putchar";
+	char x;
 
-	int c;
-
-	for (c = 0; c < 8; c++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		_putchar(ermias[c]);
+		_putchar(x);
 	}
 	_putchar('\n');
-	return (0);
+
 }
